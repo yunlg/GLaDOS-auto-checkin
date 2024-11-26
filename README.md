@@ -27,13 +27,13 @@
 点击 New repository secret 按钮，添加以下 Secrets：
 
 
-TG_BOT_TOKEN  你的电报机器人的Token
+TG_BOT_TOKEN   你的电报机器人的Token
 
-TG_CHAT_ID    你的Chat ID 
+TG_CHAT_ID     你的Chat ID 
 
-HTTP_PROXY    HTTP代理地址 如果你需要的话
+HTTP_PROXY        HTTP代理地址 如果你需要的话
 
-HTTPS_PROXY   HTTPS代理地址 如果你需要的话
+HTTPS_PROXY      HTTPS代理地址 如果你需要的话
 
 GLADOS_EMAIL_1=   你的邮箱
 
