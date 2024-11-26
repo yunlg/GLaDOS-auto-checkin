@@ -1,3 +1,4 @@
+try:
 name: GLaDOS Sign-in Workflow
 
 on:
@@ -46,3 +47,7 @@ jobs:
     - name: Clean up
       run: |
         rm -f glados_sign.py  # 可选：清理临时文件
+
+except Exception as e:
+    print(f"Error: {e}")
+    sys.exit(2)  # 确保退出码为 2
