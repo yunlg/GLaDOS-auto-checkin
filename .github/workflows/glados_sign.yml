@@ -11,9 +11,9 @@ on:
   #   branches:
   #     - main  # 每次代码推送到 main 分支时也会触发
 
-  push:
-    branches:
-      - main  # 只在主分支提交时触发
+  # push:
+  #  branches:
+  #    - main  # 只在主分支提交时触发
 
 jobs:
   sign-in:
