@@ -116,7 +116,7 @@ def multi_account_sign():
         accounts.append((email, cookie))
         i += 1
 
-    if not accounts:
+    if len(accounts) = 0:
         print("未找到账号信息，请检查 .env 文件")
         return
 
