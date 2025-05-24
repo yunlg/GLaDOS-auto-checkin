@@ -36,10 +36,10 @@ jobs:
     - name: Set up environment variables
       run: |
         #echo "TG_BOT_TOKEN=${{ secrets.TG_BOT_TOKEN }}" >> $GITHUB_ENV
-        echo "TG_CHAT_ID=${{ secrets.TG_CHAT_ID }}" >> $GITHUB_ENV
+        #echo "TG_CHAT_ID=${{ secrets.TG_CHAT_ID }}" >> $GITHUB_ENV
         #echo "HTTP_PROXY=${{ secrets.HTTP_PROXY }}" >> $GITHUB_ENV
         #echo "HTTPS_PROXY=${{ secrets.HTTPS_PROXY }}" >> $GITHUB_ENV
-        #echo "GLADOS_EMAIL_1=${{ secrets.GLADOS_EMAIL_1 }}" >> $GITHUB_ENV
+        echo "GLADOS_EMAIL_1=${{ secrets.GLADOS_EMAIL_1 }}" >> $GITHUB_ENV
         echo "GLADOS_COOKIE_1=${{ secrets.GLADOS_COOKIE_1 }}" >> $GITHUB_ENV
         # 添加其他账号信息
         # echo "GLADOS_EMAIL_2=${{ secrets.GLADOS_EMAIL_2 }}" >> $GITHUB_ENV
